@@ -241,12 +241,12 @@ button {
   background: black;
 }
 
-.testimonials__slider_item div {
-  padding: 0px !important;
-}
-
 .testimonials__slider_item {
   width: 400px;
+}
+
+.testimonials__slider_item div {
+  padding: 0px !important;
 }
 
 .counter {
@@ -279,10 +279,40 @@ button {
   font-size: 22px;
 }
 
+.sayhello {
+  background-image: url(../img/contact_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .sayhello_form input {
+  padding: 12px;
   max-width: 375px;
   width: 45%;
   height: 55px;
+}
+
+.sayhello_form_btn {
+  padding: 30px 0px 60px;
+}
+
+.sayhello_form_btn button {
+  width: 125px;
+  height: 50px;
+  color: #4d4d4d;
+  border: 1px solid #4d4d4d;
+  background-color: white;
+  text-transform: uppercase;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.sayhello_form_btn button:hover {
+  background-color: white;
+  border: none;
+  -webkit-box-shadow: 7px 11px 20px rgba(0, 0, 0, 0.38);
+          box-shadow: 7px 11px 20px rgba(0, 0, 0, 0.38);
 }
 
 .sayhello_form_message {
@@ -290,10 +320,50 @@ button {
 }
 
 .sayhello_form_message input {
+  padding: 12px;
   max-width: 770px;
   width: 100%;
   height: auto;
   min-height: 200px;
+}
+
+.social {
+  border-top: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 22px 0px;
+}
+
+.social ul a {
+  margin: 5px;
+  text-decoration: none;
+}
+
+.social ul i {
+  background-color: white;
+  color: #4a5768;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.social ul i:hover {
+  background-color: #0985bf;
+  color: white;
+}
+
+.social h7 {
+  color: white;
 }
 
 @media screen and (max-width: 600px) {
