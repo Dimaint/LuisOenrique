@@ -241,10 +241,6 @@ button {
   background: black;
 }
 
-.testimonials__slider_item {
-  width: 400px;
-}
-
 .testimonials__slider_item div {
   padding: 0px !important;
 }
